@@ -14,10 +14,19 @@ public final class PetContract {
 
 
     public static final String CONTENT_AUTHORITY = "com.example.android.pets";
+
+
+
+
     public static final Uri BASE_CONTENT_URI = Uri.parse("content://" + CONTENT_AUTHORITY);
 
 
     public static final String PATH_PETS = "pets";
+
+
+
+
+
     public static abstract class PetsEntry implements BaseColumns {
         /**
          * The MIME type of the {@link #CONTENT_URI} for a list of pets.
